@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: beige;
+  
+}
+.container-fluid{
+    padding-left: 6.5%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px 0px;
+}
+.left-side{
+    flex-basis: 25%;
+}
+.active{
+    background-image: linear-gradient(to left, rgb(147, 5, 5) ,  rgb(100, 11, 11) ); 
+    border: none;
+}
+.right-side{
+    flex-basis: 25%;
+    
+}
+.cards-conatiner{
+  
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;  
+    padding:20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width:50%;
+    height: auto;
+}
+.debit-card1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;  
+    padding:30px 30px;
+    background-image: linear-gradient(to left, rgb(147, 5, 5) ,  rgb(100, 11, 11) );
+    border-radius: 12px;
+    width:100%;
+    color:white;
+    height:45vh;
+    margin-bottom: 20px;
+}
+
+.debit-card1 .card-number{
+
+    width:100%;
+    letter-spacing: 2%;  
+}
+
+.debit-card1 .debit-footer{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    margin:10px 0px;
+}
+
+.action-buttons{
+    width: 100%;
+}
+.action-buttons .list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-primary{
+    background-color:rgb(100, 11, 11) ;
+    border: none;
+    padding:10px 30px;
+}
+.btn-primary:hover{
+    background-color: rgb(3, 0, 0) ;
+    
+}
+.list-group-item div i{
+    margin-right: 20px;
+    color:rgb(100, 11, 11) ;
+    font-size: larger;
+}
+alert-primary{
+    width: auto;
+    height:auto;
+}
