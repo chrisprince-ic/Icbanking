@@ -1,4 +1,4 @@
-var 
+
 var rightSide = document.querySelectorAll(".right-side");
 var listGroup = document.getElementById("listGroup");
 var balance = document.getElementById("credit-balance");
